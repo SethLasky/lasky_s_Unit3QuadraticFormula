@@ -15,7 +15,7 @@ public class quadraticFormula
     b = console.nextDouble();
     System.out.println("Please enter a number for value C");
     c = console.nextDouble();
-    root(a,b,c);
+    System.out.println(root(a,b,c));
     }
     catch (InputMismatchException d)
     {
