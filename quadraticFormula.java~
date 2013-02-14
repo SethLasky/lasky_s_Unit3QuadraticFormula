@@ -33,7 +33,6 @@ public class quadraticFormula
     {
       System.out.println("The program is existing because an error was created.");
     }
-  }
     
       
   
@@ -57,4 +56,3 @@ static double root(double A, double B, double C)
             return  (-B + Math.sqrt(disc)) / (2*A);
          }
      }
-}
