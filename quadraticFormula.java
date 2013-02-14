@@ -17,9 +17,14 @@ public class quadraticFormula
     c = console.nextDouble();
     System.out.println(root(a,b,c));
     }
-    catch (InputMismatchException d)
+    catch (IllegalArgumentException d)
     {
       System.out.println(d.toString());
+    }
+     
+    catch (InputMismatchException e)
+    {
+      System.out.println(e.toString());
     }
     catch (ArithmeticException f)
     {
